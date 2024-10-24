@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "custom_logger"
+version = "1.0.0"
+authors = [
+  { name="Bhawesh Bhansali", email="bhansalibhawesh85@gmail.com" },
+]
+description = "A Python utility designed to simplify logging within applications"
+readme = "README.md"
+requires-python = ">=3.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+
+]
+
+[project.urls]
+Homepage = "https://github.com/bhawesh96/custom-logger"
+Issues = "https://github.com/bhawesh96/custom-logger/issues"
